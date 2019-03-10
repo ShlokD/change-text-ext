@@ -1,0 +1,13 @@
+{
+  "name": "Pure Text",
+  "version": "1.0",
+  "description": "Convert any html page to pure text",
+  "manifest_version": 2,
+  "author": "Shlok Desai",
+  "background": {
+    "scripts": ["bundle.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {}
+}
